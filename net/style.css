@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    border: border-box;
+    font-family: sans-serif;
+}
+header{
+    height:640px;
+    width:100%;
+    background-image:
+                linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url(
+'https://preview.redd.it/zjgs096khv591.jpg?auto=webp&s=c6135026c093f19ef733cb3435fb95d67aa6f345');
+    background-size: cover;
+}
+#initial{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#imgd{
+    height: 80px;
+    width:225px;
+}
+#img{
+    width: 100%;
+    height: 80px;
+    background-image:url("data:image/png;base64,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");
+    background-size: cover;
+}
+.select{
+    height: 32px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+select{
+    color: white;
+    font-size: 1em;
+    border-radius: 10%;
+}
+#button{
+    width: 75px;
+    height: 32px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-left: 8px;
+}
+button{
+    height: 22.5px;
+    width: 74.5px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 10%;
+    border-color: transparent;
+}
+#combined{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    
+}
+.blank{
+    width: 100%;
+}
+a{
+    background-color: red;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.content{
+    height: 87.5%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    background-color: transparent;
+    font-size: 35px;
+}
+#nsut{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+#dtu{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+input{
+    width: 30%;
+    height: 40px;
+    background-color: transparent;
+    font-weight: 900;
+    color: rgb(213, 218, 218);
+    border-width: 2px;
+    border-color: rgb(225, 223, 223);
+    border-radius: 10%;
+}
+.cv{
+    background-color: transparent;
+}
+#Search{
+    background-color: transparent;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rt{
+    margin-left: 20px;
+    width: 120px;
+    height: 44px;
+}
+.line{
+    width: 100%;
+    height: 15px;
+    background-color: rgb(41, 40, 40);
+}
+#Animation{
+    width: 40%;
+    height: 25rem;
+    background-image: url(WhatsApp\ Image\ 2024-06-07\ at\ 11.40.15.jpeg);
+    background-size: cover;
+    animation-name: photos;
+    animation-duration: 20s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    margin-left: 100px;
+}
+@keyframes photos {
+    0% {background-image: url(WhatsApp\ Image\ 2024-06-07\ at\ 11.40.15.jpeg);}
+    25% {background-image: url(WhatsApp\ Image\ 2024-06-07\ at\ 11.40.55.jpeg);}
+    50% {background-image: url(WhatsApp\ Image\ 2024-06-07\ at\ 11.41.50.jpeg);}
+    75% {background-image: url(WhatsApp\ Image\ 2024-06-07\ at\ 11.42.23.jpeg);}
+    100% {background-image: url(WhatsApp\ Image\ 2024-06-07\ at\ 11.40.15.jpeg);}   
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+}
+#Text{
+    text-align: start;
+    color: white;
+    font-size:1.5rem;
+    
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 480px;
+    padding-left: 32px;
+}
+.imgh{
+    width: 480px;
+    position: relative;
+    margin-left: 30px;
+}
+#Text1{
+    text-align: start;
+    color: white;
+    font-size:1.5rem;
+}
+#hkl{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    top: -150px;
+    align-items: center;
+    justify-content: center;
+}
+#imn{
+    background-image: url(boxshot.png);
+    background-size: cover;
+    height: 80px;
+    width:15%;
+
+}
+#setup2{
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#bkl{
+    display: flex;
+    height: 70%;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-width: 2px;
+    border-color: rgb(159, 158, 158);
+    border-style: solid;
+    border-radius: 5%;
+    
+}
+#Stra{
+    color: white;
+    font-size: large;
+    font-weight: 900;
+}
+#pi{
+    color: rgb(0, 94, 255);
+    font-weight: 900;
+    font-size: medium;
+}
+#anim{
+    color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    border-radius: 50%;
+    border-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    animation-name: animes;
+    animation-duration: 20s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes animes {
+    0% {
+        border-color: blue;
+    }
+    25% {
+        border-color: blue;
+        background-color:blue ;left: 0px;top:0px;
+    }
+    50% {
+        border-color: blue;
+    }
+    75% {
+        border-color: blue;
+    }
+    100% {
+        border-color: blue;
+    }
+
+}
